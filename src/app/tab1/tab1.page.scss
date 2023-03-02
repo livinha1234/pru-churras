@@ -1,0 +1,20 @@
+.container-coin{
+display:flex;
+align-items:center;
+justify-content: center;
+height: 100%;
+width: 100%;
+flex-flow:column;
+}
+
+img{
+  height: 50%;
+  border-radius: 50%;
+  box-shadow: 31px 4px 18px 9px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 31px 4px 18px 9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 31px 4px 18px 9px rgba(0,0,0,0.75);
+}
+
+.btn{
+  cursor: pointer;
+}
