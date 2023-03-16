@@ -1,12 +1,10 @@
 .botao{
-padding: 10px 0;
 justify-content: space-between;
-display: flex;
-
+width: 19%;
 }
 
 .cor{
-  background-color: rgb(175, 174, 174);
+  background-color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -14,17 +12,14 @@ display: flex;
   text-align: center;
 }
 
-.color{
-  background-color: rgb(175, 174, 174);
-}
 
 .time{
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 align-items: center;
 ion-button{
-  height: 50px;
-  width: 50px;
+height: 50px;
+width: 50px;
 }
 
 }
