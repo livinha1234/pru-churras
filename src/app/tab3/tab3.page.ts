@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
 export class Tab3Page {
 
   constructor() {}
+numero=0;
+dado="assets/icon/dado.png";
+dadoGif="assets/icon/dado.png";
+value=0;
 
 }
+
+
+
