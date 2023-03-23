@@ -75,7 +75,7 @@ vitoria2 = 0;
 
 subtrairBotao1(){
 
-  this.numero=1
+  this.numero=1;
   if(this.pont1 >=1) {
     this.pont1 -= this.numero;
 }
@@ -90,6 +90,16 @@ subtrairBotao2(){
 
     this.pont2 -= this.numero;
 }
+
+}
+
+limparTudo(){
+this.numero=1;
+this.pont1=0;
+this.pont2=0;
+this.vitoria1=0;
+this.vitoria2=0;
+
 
 }
 

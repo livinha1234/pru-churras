@@ -11,11 +11,11 @@
     <ion-title class="ion-title" class="cor" color="dark"> VALENDO: {{numero}}</ion-title>
   </ion-card>
 <div >
-<ion-button  class="botao" color="light" (click)="clicarBotao1()">1</ion-button>
-<ion-button class="botao" color="light"(click)="clicarBotao3()">3</ion-button>
-<ion-button class="botao" color="light" (click)="clicarBotao6()">6</ion-button>
-<ion-button class="botao" color="light" (click)="clicarBotao9()">9</ion-button>
-<ion-button class="botao" color="light" (click)="clicarBotao12()">12</ion-button>
+<ion-button  class="botao" color="danger" (click)="clicarBotao1()">1</ion-button>
+<ion-button class="botao" color="warning"(click)="clicarBotao3()">3</ion-button>
+<ion-button class="botao" color="primary" (click)="clicarBotao6()">6</ion-button>
+<ion-button class="botao" color="tertiary" (click)="clicarBotao9()">9</ion-button>
+<ion-button class="botao" color="secondary" (click)="clicarBotao12()">12</ion-button>
 </div>
 
 <ion-grid>
@@ -23,17 +23,17 @@
   <ion-row>
     <ion-col class="time">
      <ion-title color="dark"><h1>Time 1</h1></ion-title>
-      <ion-button color="dark" (click)="somarBotao1()">+</ion-button>
-      <h1>{{pont1}}</h1>
-      <ion-button color="dark" (Click)="subtrairBotao1()">-</ion-button>
+      <ion-button color="danger" (click)="somarBotao1()">+</ion-button>
+      <ion-title color=><h1>{{pont1}}</h1></ion-title>
+      <ion-button color="danger" (click)="subtrairBotao1()">-</ion-button>
 
     </ion-col>
 
     <ion-col class="time">
       <ion-title color="dark"><h1>Time 2</h1></ion-title>
-      <ion-button color="dark" (click)="somarBotao2()">+</ion-button>
+      <ion-button color="danger" (click)="somarBotao2()">+</ion-button>
       <ion-title color="dark"><h1>{{pont2}}</h1></ion-title>
-      <ion-button color="dark" (click)="subtrairBotao2()">-</ion-button>
+      <ion-button color="danger" (click)="subtrairBotao2()">-</ion-button>
     </ion-col>
   </ion-row>
 </ion-card>
@@ -45,12 +45,12 @@
 
   <ion-row>
     <ion-col><ion-title color="dark"> Time 1 </ion-title></ion-col>
-    <ion-col><ion-title color="dark">0</ion-title></ion-col>
+    <ion-col><ion-title color="dark" >{{vitoria1}}</ion-title></ion-col>
   </ion-row>
 
   <ion-row>
     <ion-col><ion-title color="dark"> Time 2</ion-title></ion-col>
-    <ion-col><ion-title color="dark">0</ion-title></ion-col>
+    <ion-col><ion-title color="dark">{{vitoria2}}</ion-title></ion-col>
   </ion-row>
 
 
@@ -58,7 +58,8 @@
 </ion-grid>
 
 
-<ion-card class="ion-title" color="dark"><h2 >LIMPAR</h2></ion-card>
 
 
 </ion-content>
+<ion-footer>
+  <ion-card class="ion-title" color="danger" (click)="limparTudo()"><h2 >LIMPAR</h2></ion-card></ion-footer>
